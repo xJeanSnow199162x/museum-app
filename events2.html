@@ -1,0 +1,218 @@
+<!doctype html>
+
+
+
+<head>
+  <title>GDES1060 – Museum Mobile Web AppMuseum Mobile Web App</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/motion-ui.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body> 
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container"> <!-- SITE WRAPPER --> 
+   
+  
+<!-- Top Navigation Menu -->
+
+<div class="topnav">
+
+   <div id="header_logo"></div> <!-- LOGO GOES HERE --> 
+           <div id="Time">  <!--Time -->
+          <p> Open Today until 5 p.m</p>
+        </div> <!--End Time -->
+  
+  <div id="myLinks">
+    <a href="index.html">Basquiat</a>
+    <a href="index3.html">Santo 2</a>
+    <a href="events2.html">Events</a>
+    <a href="#View">Viewing</a>
+    <a href="#about">About</a>
+    <a href="#FAQ">Faq</a>
+    
+    
+  </div>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i><!-- hamburger icon --></a>
+  
+</div> 
+<!-- End smartphone / tablet look -->
+ 
+
+  <main> 
+  
+	<div id="content_wrap">
+	
+		<div id="content_img">
+		
+		</div> 
+	
+		<div id="content_text">
+		<h2> Overview </h2> 
+		<p>An in-depth installation of Jean-Michel Basquiat, opening May 26, 2021, features all 13 works by the artist in the Broad collection, including three works on view for the first time at The Broad: Santo 2 (1982),Deaf (1984),and Wicker (1984).
+An outcome of sustained and ongoing engagement with artists and artwork, the Broad collection is distinctive in its exceptional dedication to the full arc of artists’careers.The Broad has highlighted this depth through expansive presentations in the third floor galleries,featuring Jean-Michel Basquiat,Roy Lichtenstein,Kara Walker,Andy Warhol,and Christopher Wool, along with works by many others.</p>
+		</div> 
+	
+	</div> 
+  
+   
+
+	<div id="dual_wrap">
+	
+		<div id="left_img">
+		
+		</div> 
+		 
+
+		<div id="left_text">
+		<h3> <b><i>Santo 2</i></b> </h3> 
+		<p>Jean‐Michel Basquiat 1982 acrylic, oilstick, and paper on canvas with exposed wood supports 36 1/4 x 36 in. (92.08 x 91.44 cm)</p>
+		</div>  
+		 
+		<div id="right_img">
+		
+		</div> 
+
+		<div id="right_text">
+		<h3> <b><i>Deaf </i></b> </h3> 
+		<p>Jean‐Michel Basquiat 1982 acrylic, oilstick, and paper on canvas with exposed wood supports 36 1/4 x 36 in. (92.08 x 91.44 cm)</p>
+		</div>  
+		
+	
+	</div>
+       
+ 
+   <section class ="events">  <!-- Events --> 
+      <div class ="event_pic"></div>
+      <img src="img/details_3.png" class="event_img"> 
+	</section>
+
+	
+  <section class="guys_name" style="margin-top: 2vw;">
+        <h3>Jean Michel Basquiat </h3>
+	</section>
+
+
+ 
+  
+  </main>
+  
+  
+  </body><!-- End of Body -->
+  
+  
+  <script>
+  
+  
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  </script>
+
+
+
+
+
+    <div class="searchbar" style="margin-top: 6vw;">
+      <input type="text" placeholder="Search..">
+    </div>
+
+
+    <!-- Footer -->
+<footer>
+ 
+  <section class="footer"> 
+    <!--white logo-->
+    <div id="white_logo"> 
+      
+    </div>
+    
+    <!--end white logo-->
+
+    <!--footer info-->
+
+    <div id="add">  <!-- add -->
+      <h1>General Admission is Always Free</h1>
+    </div>  
+
+    <!--end add-->
+      
+    <!--location-->
+    <div id="location">
+      <p>221 S. Grand Avenue </p>
+      <p>Los Angeles, CA 90012</p>
+      <p>13-232-6250</p>
+      <p>info@thebroad.org</p>
+    </div>
+     <!--end location-->
+
+
+	
+
+</section> 
+</footer>
+<!--end footer-->
+
+
+
+<script> 
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script> 
+
+
+
+
+</div>  <!-- SITE WRAPPER --> 
+
+
+
+</body>
+
+
+
+</html>

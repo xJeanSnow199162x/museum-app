@@ -1,0 +1,245 @@
+
+#header_logo { 
+	background-image: url("../img/logo_red.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 30vw; 
+	height: 8.5vw;
+    top: 3vw;
+    float: left;  
+}
+
+
+
+
+
+
+#guys_name{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    color: white;
+    background-color: #C8281E;
+    border: 2px solid grey; 
+    border-radius: 5px 5px;
+    box-shadow: 7px 7px 5px #aaaaaa;
+    position:absolute;
+    width: 50vw;
+    margin-left:2vw;
+    margin-top: 1.7vw;
+    padding-left: 2vw;
+    
+    
+    }
+
+#some_words h1{
+    font-family: Arial, Helvetica, sans-serif,bold;
+    font-size: 6vw;
+    color: #707070;
+    margin-left: 3vw;;
+
+}
+
+#some_words p{
+    font-family: Arial, Helvetica, sans-serif,;
+    font-size: 2vw;
+    margin-left: 3vw;
+
+
+}
+
+#some_words b{
+    font-family: Arial, Helvetica, sans-serif,;
+    font-size: 2vw;
+    color:red;
+}
+
+#trippy_pics{ 
+    background: red; 
+
+    } 
+    
+#buggin_out{ 
+
+    height: 5vw;
+    width: 48vw;
+    margin-left:2vw;
+    float: left; 
+    padding: 10vw;
+    } 
+
+#buggin_out h1{
+    background-color: yellow;
+   margin-bottom: 4vw;
+   
+   
+}
+    
+
+
+#dope_arms{ 
+    background: green; 
+    height: 5vw; 
+    width: 48vw;
+    margin-right:2vw;
+    float: right; 
+    padding: 10vw;
+}
+ 
+
+
+#more_words2 h1{
+    font-family: Roboto, sans-serif,bold;
+    color: #FF0000;
+    font-size: 4vw;
+    margin-left: 40vw;
+
+}
+
+#more_words2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    margin-left: 3vw;
+
+}
+#hero_wrap{  
+border: 10px solid red; 
+}
+
+
+
+ /*important*/
+
+
+
+#main-menu nav {
+    display: flex;
+    height: 100%;
+   }
+   #main-menu ul {
+    margin: auto 0;
+    padding: 0;
+    list-style: none;
+   }
+
+
+
+
+.guys_name{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 30px;
+color: white;
+background-color: #C8281E;
+border: 2px solid grey; 
+border-radius: 5px 5px;
+box-shadow: 7px 7px 5px #aaaaaa;
+
+}
+
+.footer{
+    background:#6A6A6A;
+    height: 40vw;
+    
+}
+
+#white_logo{
+    background-image: url("../img/logo_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20%;
+    width: 30%;
+    margin-left: 2vw;
+
+
+}
+
+#add h1{
+    font-family: Roboto,sans-serif, bold;
+    font-size: 30px;
+    color:white;
+    margin-left:2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+
+}
+
+#location p{
+    font-family: roboto,sans-serif;
+    color: white;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    font-size: 25px;
+
+}
+
+#facebook-icon{
+    background-color: green;
+	background-image: url("../img/facebook.png");
+	background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+  
+    
+}
+
+
+
+
+.mobile-container { /*website wrapper*/    
+  border-radius: 10px;
+  width: 100%; 
+  margin: auto; 
+}
+
+.topnav { /*header, logo needs to go in here */  
+  overflow: hidden; 
+  position: relative;  
+}
+
+.topnav #myLinks {
+background-color: red;
+display: none;
+width: 20%;
+float: right;
+ 
+}
+
+ 
+.topnav a { /*each menu item*/  
+font-family: roboto,sans-serif,bold;
+color:black;
+padding: .45vw 1vw;
+text-decoration: none;
+font-size: 2vw;
+display: block; 
+border-radius: .25vw;
+margin-top: .1vw;
+min-width: 1vw;
+}
+
+.topnav a:hover{ 
+  background: red ;
+  color:white; 
+} 
+
+.topnav a.icon {  
+background: none;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  color:black;
+}
+
+
+
+
+#Time {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 2vw; 
+    width: 27vw; 
+    height: 1.75vw;
+    text-align: center; 
+    position: relative;
+    float: left;  
+    margin-right: 2vw;
+}

@@ -1,0 +1,628 @@
+
+.mobile-container { /*website wrapper*/    
+  border-radius: .5vw;
+  width: 100%; 
+  margin: auto; 
+  border: 10px solid  #C8281E; 
+  padding: 3vw 4vw;   
+  font-family: Roboto, sans-serif;   
+}
+
+.topnav { /*header, logo needs to go in here */  
+  overflow: hidden; 
+  position: relative;  
+}
+
+
+
+.topnav #myLinks {
+background-color: #C8281E;
+display: none;
+width: 13%; 
+float: right;
+ 
+}
+
+ 
+.topnav a { /*each menu item*/  
+font-family: roboto,sans-serif,bold;
+color:black;
+padding: .45vw 1vw;
+text-decoration: underline;
+font-size: 1.5vw;
+display: block; 
+border-radius: .25vw;
+margin-top: .1vw;
+min-width: 1vw;
+}
+
+.topnav a:hover{ 
+  background: red ;
+  color:white; 
+} 
+
+.topnav a.icon {  
+background: none;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0; 
+  color:black;
+}
+
+
+
+
+#Time {
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 2vw; 
+    width: 27vw; 
+    height: 1.75vw;
+    text-align: center; 
+    position: relative;
+    float: left;  
+    margin-right: 2vw;
+}
+
+
+
+
+
+#header_logo { 
+	background-image: url("../img/logo_red.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 30vw; 
+	height: 8.5vw;
+    top: 3vw;
+    float: left;  
+}
+
+
+
+.hero{
+    width: 100%; 
+    height: 38vw; 
+    background-image: url("../img/home-hero.png");
+    background-position: center center; 
+    background-size: inherit;  
+    background-repeat: no-repeat;
+    }
+
+.hero2{
+        background-color: #C8281E;
+        padding: 2.5vw;
+        width: 78%;
+        height: 30vw;  
+        margin-left: 8.5vw; 
+        border: 2px solid grey; 
+        border-radius: 5px 5px;
+        box-shadow: 5px 5px 5px #aaaaaa;
+        position: absolute;
+		top: 35vw; 
+        z-index: 2;     
+	    font-family: Roboto, sans-serif; 
+}
+
+
+ 
+.hero2 h2{ 
+    font-size: 3vw;
+    color:#333232;
+    width: 100%;
+    float: left;   
+    text-shadow: .05vw .05vw .95vw rgba(0, 0, 0, 0.05);
+    margin-bottom: 2vw;
+}
+
+.hero2 h1{ 
+    font-size:4.5vw;
+    color: white;
+	clear: right; 
+	width: 100%;   
+	line-height: 3vw; 
+    text-shadow: 3.5px 3.5px .5vw #333232;  
+	margin-bottom: 2vw;
+    margin-left: 1.2vw; 	
+	
+}
+
+.hero2 p{ 
+    font-size: 2.1vw; 
+    color: white;
+    position: relative;  
+    clear: both; 
+    text-align: left;  
+    text-shadow: .2vw .2vw .5vw #333232; 
+	padding: 1.5vw 0 0 0 ;
+}
+
+ 
+.shadow{ 
+    border: 2px solid grey; 
+    border-radius: 5px 5px; 
+
+}
+
+ 
+
+ /*important*/
+
+
+
+#main-menu nav {
+    display: flex;
+    height: 100%;
+   }
+   
+#main-menu ul {
+    margin: auto 0;
+    padding: 0;
+    list-style: none;
+   }
+
+  
+     
+.home h1{  
+    font-family: Roboto, sans-serif,bold;
+    font-size: 6vw;
+    color:#6A6A6A;
+    padding-top: 2vw;
+    margin: auto;
+    margin-left: 1vw;
+    margin-top: 20vw;
+     
+}
+
+
+.guys_name h3{
+font-family:Arial, Helvetica, sans-serif;
+font-size: 1.5vw;
+color: white;
+background-color: #C8281E;  
+border-radius: .5vw .5vw;
+box-shadow: .7vw .7vw .5vw #aaaaaa;  
+height: 3.5vw; 
+text-shadow: .35vw .35vw .5vw #333232;  
+padding: .5vw 1vw; 
+}
+
+
+.spacer {  
+	height: 10vw; 
+} 
+
+
+.event_img{  
+height: 75%; 
+} 
+
+
+.events h1{
+    font-family: Roboto, sans-serif, bold;
+    font-size: 6vw; 
+    color:#6A6A6A;
+    padding-top: 2vw;
+    margin: auto;
+    margin-left: 1vw;
+    
+    
+}
+
+
+.events h4{
+    font-family: Roboto, sans-serif, ;
+    font-size: 3vw;
+    margin-left:2vw;
+    margin-top: 2vw ;
+    color: #C8281E;
+    
+    
+}
+
+
+
+.events h5{
+    font-family: Roboto, sans-serif,;
+    font-size: 3vw;
+    margin-left:2vw;
+    margin-bottom: 2vw;
+    color: #6A6A6A;
+}
+
+.events p{
+    font-family: Roboto, sans-serif,;
+    font-size: 2vw;
+    margin-left:2vw;
+    color: #6A6A6A;
+}
+
+
+.body2 h1{
+    font-family: Roboto, sans-serif, bold;
+    font-size: 6vw;
+    color:#6A6A6A;
+    padding-top: 2vw;
+    margin: auto;
+    margin-left: 1vw; 
+
+    
+}
+
+.body2 h4{
+    font-family: Roboto, sans-serif,;
+    font-size: 3vw;
+    margin-left:2vw;
+    margin-top: 1.5vw;
+    color: #C8281E;
+
+}
+
+
+.body2 h5{
+    font-family: Roboto, sans-serif,;
+    font-size: 3vw;
+    margin-left:2vw;
+    margin-bottom: 2vw;
+    color: #6A6A6A;
+
+}
+
+
+
+.footer{
+    background:#6A6A6A;
+    height: 40vw; 
+	padding: 2vw 1vw; 
+}
+
+#white_logo{
+    background-image: url("../img/logo_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20%;
+    width: 30%;
+    margin-left: 2vw;
+
+
+}
+
+#add h1{
+    font-family: Roboto,sans-serif, bold;
+    font-size: 3vw;
+    color:white;
+    margin-left:2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+
+}
+
+#location{  
+height: 45%; 
+width: 30%; 
+padding: 2vw 2vw; 
+float: left; 
+} 
+
+#location p{
+    font-family: roboto,sans-serif;
+    color: white;
+    margin-left: 2vw; 
+    font-size: 1.5vw;
+
+}
+
+
+
+
+ 
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 61vw;  
+  position: relative;
+  margin: auto;
+  background: rgba(116, 164, 160, 0.31); 
+  border-radius: 1vw; 
+  border: .2vw solid grey; 
+  box-shadow: .8vw .7vw .5vw rgba(70, 77, 78, 0.46); 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -2.2vw;
+  padding: 16px; /*LEAVE IN PX*/
+  color: white;
+  font-weight: bold;
+  font-size: 1.8vw;
+  transition: 0.6s ease;
+  border-radius: 0 .3vw .3vw 0;
+  user-select: none; 
+  text-shadow: .3vw .2vw .3vw rgba(70, 77, 78, 1); 
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: .3vw 0 0 .3vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text
+.text {
+  color: black;
+  text-shadow: .1vw .1vw   white; 
+  font-size: 2vw;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+ */
+ 
+ 
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1.2vw;
+  padding: .8px 12px;
+  position: absolute;
+  top: 0;
+  text-shadow: .1vw .1vw .4vw rgba(70, 77, 78, 1); 
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 1.5vw;
+  width: 1.5vw;
+  margin: 0 .2vw;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  box-shadow: .2vw .1vw .5vw rgba(70, 77, 78, 0.46); 
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.slide_1{ 
+  height:40vw; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-radius: 1vw; 
+  border: .2vw 
+  solid grey;
+}    
+  
+
+.slide_2{
+  height:40vw; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;  
+  border-radius: 1vw; 
+  border: .2vw solid grey;
+}
+
+.slide_3{
+  height:40vw; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  border-radius: 1vw;  
+  border: .2vw solid grey;
+}
+
+.slide_4{
+  height:40vw; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-radius: 1vw;  
+  border: .2vw solid grey;
+}
+
+
+.slide_5{ 
+  height:40vw; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border-radius: 1vw;  
+  border: .2vw solid grey;
+} 
+
+#trippy_pics{ 
+border: 10px solid red; 
+height: 45vw; 
+position: relative; 
+}
+
+
+#bugging{ 
+	border: 10px solid blue; 
+	background: url("./img/details_Hero.png");
+	background-size: contain; 
+	background-repeat: no-repeat; 
+	width: 30vw;  
+	height: 30vw;
+	float: left; 
+	position: relative; 
+	float: right; 
+}
+
+#buggin_out{
+	border: 1px solid red; 
+	width: 30vw; 
+	height: 10vw; 
+	position: relative; 
+	clear: left; 
+}
+
+#buggin_out h1{ 
+	border: 1px solid green; 
+} 
+
+#buggin_out p{  
+	font-size: 1vw; 
+} 
+
+#dope_arms{  
+	background: url(../img/details_1.png);
+	background-size: contain; 
+	background-repeat: no-repeat; 
+	width: 30vw;  
+	height: 30vw; 
+	position: relative; 
+} 
+
+#nice_arm_bro{  
+	width: 30vw; 
+	height: 10vw;  
+	position: relative; 
+	clear: right; 
+} 
+
+#dual_wrap{ 
+	height: 35vw;
+	padding: 2vw 1vw; 
+	margin: 2vw 0vw; 
+	position: relative;  
+}
+
+ 
+
+#left_img{  
+	width: 40%;   
+	height: 75%; 
+	position: absolute; 
+  top: 0%; 	
+	background: url("../img/details_Hero.png");
+	background-size: contain; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+} 
+
+
+#left_text{  
+	width: 40%;  
+	top: 75%; 
+	height: 28%; 
+	position: absolute;   
+} 
+
+#left_text h3{  
+	font-size: 2.5vw; 
+  font-family: roboto,sans-serif,bold;
+  color: #C8281E;
+  margin-left: 13vw;
+  
+} 
+
+#left_text p{ 
+  font-size: 1.3vw; 
+  font-family: Roboto, sans-serif,bold;
+
+
+} 
+
+#right_img{  
+	width: 40%;  
+	height: 75%; 
+	position: absolute;   
+	top: 0%; 
+	right: 1%;  	
+	background: url("../img/details_1.png");
+	background-size: contain; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+} 
+
+#right_text{  
+	width: 40%;    
+	position: absolute;   
+	top: 75%; 
+	height: 20%; 
+	right: 1%; 
+} 
+
+
+#right_text h3{  
+  font-size: 2.5vw; 
+  font-family: roboto,sans-serif,bold;
+  color: #C8281E;
+  margin-left: 15vw;
+} 
+
+#right_text p{ 
+  font-size: 1.3vw; 
+  font-family: Roboto, sans-serif,bold;
+} 
+
+
+#content_wrap{  
+	height: 48vw;
+} 
+
+#content_img{  
+	height: 70%; 
+	background: url("../img/Catagory_hero.png");
+	background-size: contain; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+} 
+
+#content_text{  
+	height: 29%; 
+	
+} 
+
+#content_text h2{ 
+	font-size: 3vw; 
+  font-family: Arial, Helvetica, sans-serif;
+  color:#C8281E;
+} 
+
+#content_text p{ 
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2vw; 
+
+} 
